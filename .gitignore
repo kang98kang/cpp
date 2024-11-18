@@ -1,0 +1,31 @@
+
+# 컴파일된 바이너리
+*.exe
+*.o
+*.obj
+*.dll
+*.so
+*.dylib
+
+# 빌드 디렉터리
+/build/
+out/
+Debug/
+Release/
+
+# CMake 캐시 파일
+CMakeCache.txt
+CMakeFiles/
+
+# Visual Studio 관련 파일
+*.vcxproj*
+*.pdb
+*.ipch
+*.sdf
+*.opensdf
+*.tlog
+*.log
+
+# IDE 관련 파일
+.idea/
+.vscode/
