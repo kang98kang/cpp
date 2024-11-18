@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\day7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D631F55-8839-4AE9-BABA-AACC1431C806}|day7\\day7.vcxproj|C:\\Users\\user\\source\\repos\\day7\\day7\\day7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9D631F55-8839-4AE9-BABA-AACC1431C806}|day7\\day7.vcxproj|solutionrelative:day7\\day7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "day7.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\day7\\day7\\day7.cpp",
+              "RelativeDocumentMoniker": "day7\\day7.cpp",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\day7\\day7\\day7.cpp*",
+              "RelativeToolTip": "day7\\day7.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T07:43:58.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
