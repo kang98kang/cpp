@@ -1,4 +1,41 @@
 ﻿#include <iostream>
+//f11
+int input11() {
+	int in11;
+	std::cin >> in11;
+	return in11;
+}
+
+void process11(int in11, int arr11[3][3]) {
+	for (int y = 0; y < 3; y++) {
+		for (int x = 0; x < 3; x++) {
+			arr11[y][x] = in11;
+			in11++;
+		}
+	}
+}
+
+void output11(int arr11[3][3]) {
+	for (int y = 0; y < 3; y++) {
+		for (int x = 0; x < 3; x++) {
+			std::cout << arr11[y][x];
+		}
+		std::cout << "\n";
+	}
+}
+
+//f12
+void BBQ12(int in12) {
+	if (in12 > 0 && in12 < 5) {
+		std::cout << "초기값 \n";
+	}
+	else if (in12 > 6 && in12 < 10) {
+		std::cout << "중간값 \n";
+	}
+	else {
+		std::cout << "알수없는값 \n";
+	}
+}
 
 int main()
 {
@@ -30,7 +67,11 @@ int main()
 	//2
 	int in2;
 	int in2_2;
-	int num = abs(in2 - in2_2);
+
+	std::cin >> in2 >> in2_2;
+
+	int num = std::abs(in2 - in2_2);
+
 	if (num % 2 == 1) {
 		std::cout << "고백한다 \n";
 	}
@@ -66,6 +107,8 @@ int main()
 		}
 	}
 	
+	std::cout << count4;
+
 	//5
 	int in5 = 0;
 	std::cin >> in5;
@@ -156,7 +199,67 @@ int main()
 	}
 	std::cout << "홀수: " << count8 << "\n";
 	std::cout << "짝수: " << 9 - count8 << "\n";
+
+	//9
+	int arr9[5] = {};
+
+	for (int i = 0; i < 5; i++) {
+		std::cin >> arr9[i];
+	}
+
+	for (int i = 0; i < 5; i++) {
+		if (arr9[i] >= 70) {
+			std::cout << i << "번 사람은 "<< arr9[i]<< "점" << "PASS \n";
+		}
+		else if (arr9[i] >= 50) {
+			std::cout << i << "번 사람은 " << arr9[i] << "점" << "RETEST \n";
+		}
+		else {
+			std::cout << i << "번 사람은 " << arr9[i] << "점" << "FAIL \n";
+		}
+		
+	}
+
+	//10
+	char arr10[4][4] = {};
+	char in10;
+	std::cin >> in10;
+	for (int y = 0; y < 4; y++) {
+		for (int x = 0; x < 4; x++) {
+			arr10[y][x] = in10;
+		}
+	}
+	for (int y = 0; y < 4; y++) {
+		for (int x = 0; x < 4; x++) {
+			std::cout << arr10[y][x];
+		}
+		std::cout << "\n";
+	}
+
+	//11
+	int in11 = input11();
+	int arr11[3][3];
+	process11(in11, arr11);
+	output11(arr11);
+
+	//12
+	int in12;
+	std::cin >> in12;
+	if (in12 == 3 || in12 == 5 || in12 ==7) {
+		for (int i = 1; i < 11; i++) {
+			std::cout << i;
+		}
+	}
+	else if (in12 == 0 || in12 == 8) {
+		for (int i = 10; i > 0; i--) {
+			std::cout << i;
+		}
+	}
+	else {
+		BBQ12(in12);
+	}
+
+	return 0;
 }
 
-//9
 
