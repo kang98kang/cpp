@@ -29,11 +29,9 @@ int KFC10(int target10, int arr10[2][5]) {
             if (arr10[y][x] == target10) {
                 return 1;
             }
-            else {
-                return 0;
-            }
         }
     }
+    return 0;
 }
 
 int main()
@@ -201,8 +199,31 @@ int main()
     };
     int in11 = 4;
     int arrpc = 0;
-    int* arrp = new int [arrpc];
 
+    for (int y = 0; y < 4; y++) {
+        for (int x = 0; x < 4; x++) {
+            if (arr11[y][x] > in11) {
+                arrpc++;
+            }
+        }
+    }
+
+    int* arrp = new int [arrpc];
+    int arrpIdx = 0;
+
+    for (int y = 0; y < 4; y++) {
+        for (int x = 0; x < 4; x++) {
+            if (arr11[y][x] > in11) {
+                arrp[arrpIdx++] = arr11[y][x];
+            }
+        }
+    }
+    
+    for (int i = 0; i < arrpIdx; i++) {
+        std::cout << arrp[i];
+    }
+
+    delete[] arrp;
 
     return 0;
 }
