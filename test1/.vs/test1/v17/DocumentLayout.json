@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\test1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7650623C-3D4D-4DBA-97B0-ADCA182C95CC}|day2\\day2.vcxproj|C:\\Users\\user\\source\\repos\\test1\\day2\\day2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7650623C-3D4D-4DBA-97B0-ADCA182C95CC}|day2\\day2.vcxproj|solutionrelative:day2\\day2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\source\\repos\\test1\\day2\\day2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:day2\\day2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,10 +24,8 @@
               "RelativeDocumentMoniker": "day2\\day2.cpp",
               "ToolTip": "C:\\Users\\user\\source\\repos\\test1\\day2\\day2.cpp",
               "RelativeToolTip": "day2\\day2.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-15T04:31:41.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T04:31:41.612Z"
             }
           ]
         }
